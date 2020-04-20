@@ -1,0 +1,112 @@
+
+
+html, body{
+padding: 0;
+margin: 0;
+}
+span{
+    color: red;
+}
+
+.search{
+    margin-top: -20px;
+}
+.contact{
+    margin-top: -20px;
+}
+
+.joinbutton{
+    background-color: #ccc;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    height: 200px;
+}
+#btn input{
+    width: 250px;
+   
+    
+}
+#btn input{
+    margin-top: 20px;
+}
+#btn h3{
+    padding-top: 50px;
+
+}
+.middletext{
+    background: grey;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    text-align: center;
+    list-style: none;
+    margin: 29px 0 0 0;
+}
+.navbar ul li{
+    display: inline;
+   padding: 15px;
+}
+.MainPic{
+margin-left: 250px;
+margin-top: 50px;
+}
+.search{
+    float: left;
+}
+.contact{
+    float: right;
+}
+.SubMainPic {
+display: grid;
+grid-template-columns: auto auto auto auto auto auto;
+padding: 10px;
+}
+.middletext{
+    background: url("../images/purple.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 200px;;
+}
+.img{
+    width: 100px;
+    height:100px;
+    border-radius: 500%;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.middletext, p{
+text-align: center;
+margin-bottom: 50px;
+}
+
+
+.PicText{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2em;
+}
+
+footer{
+    margin: 0 auto;
+    width: 90%;
+}
+.middlePics {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 1em;
+
+}
+
+.text{
+    text-align: center; 
+}
+.bottom ul{
+    list-style: none;
+}
